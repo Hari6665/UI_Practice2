@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF881E7C2AB16FD500486FB4 /* UI_Practice2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E7B2AB16FD500486FB4 /* UI_Practice2App.swift */; };
-		CF881E7E2AB16FD500486FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E7D2AB16FD500486FB4 /* ContentView.swift */; };
 		CF881E802AB16FD600486FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF881E7F2AB16FD600486FB4 /* Assets.xcassets */; };
 		CF881E832AB16FD600486FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF881E822AB16FD600486FB4 /* Preview Assets.xcassets */; };
 		CF881E8D2AB16FD600486FB4 /* UI_Practice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E8C2AB16FD600486FB4 /* UI_Practice2Tests.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CF881E782AB16FD500486FB4 /* UI_Practice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Practice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF881E7B2AB16FD500486FB4 /* UI_Practice2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Practice2App.swift; sourceTree = "<group>"; };
-		CF881E7D2AB16FD500486FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF881E7F2AB16FD600486FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF881E822AB16FD600486FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF881E882AB16FD600486FB4 /* UI_Practice2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI_Practice2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,14 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				CF881E7B2AB16FD500486FB4 /* UI_Practice2App.swift */,
-				CF881E7D2AB16FD500486FB4 /* ContentView.swift */,
 				CF881EAB2AB17EAF00486FB4 /* GameTabView.swift */,
 				CF881EA52AB17D4E00486FB4 /* VehicleView.swift */,
 				CF881EA72AB17D7000486FB4 /* Theme2View.swift */,
 				CF881EA92AB17D9A00486FB4 /* Theme3View.swift */,
+				CF881EAD2AB1809F00486FB4 /* GameDetailView.swift */,
 				CF881E7F2AB16FD600486FB4 /* Assets.xcassets */,
 				CF881E812AB16FD600486FB4 /* Preview Content */,
-				CF881EAD2AB1809F00486FB4 /* GameDetailView.swift */,
 			);
 			path = UI_Practice2;
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 			files = (
 				CF881EAC2AB17EAF00486FB4 /* GameTabView.swift in Sources */,
 				CF881EAE2AB1809F00486FB4 /* GameDetailView.swift in Sources */,
-				CF881E7E2AB16FD500486FB4 /* ContentView.swift in Sources */,
 				CF881EA62AB17D4E00486FB4 /* VehicleView.swift in Sources */,
 				CF881E7C2AB16FD500486FB4 /* UI_Practice2App.swift in Sources */,
 				CF881EAA2AB17D9A00486FB4 /* Theme3View.swift in Sources */,

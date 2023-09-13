@@ -11,7 +11,7 @@ import SwiftUI
 struct UI_Practice2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameTabView()
         }
     }
 }

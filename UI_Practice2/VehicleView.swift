@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VehicleView: View {
     var body: some View {
-        Text("Vehicle View")
+        GameDetailView()
     }
 }
 
