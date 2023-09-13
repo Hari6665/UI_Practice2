@@ -14,6 +14,11 @@
 		CF881E8D2AB16FD600486FB4 /* UI_Practice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E8C2AB16FD600486FB4 /* UI_Practice2Tests.swift */; };
 		CF881E972AB16FD600486FB4 /* UI_Practice2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E962AB16FD600486FB4 /* UI_Practice2UITests.swift */; };
 		CF881E992AB16FD600486FB4 /* UI_Practice2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881E982AB16FD600486FB4 /* UI_Practice2UITestsLaunchTests.swift */; };
+		CF881EA62AB17D4E00486FB4 /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881EA52AB17D4E00486FB4 /* VehicleView.swift */; };
+		CF881EA82AB17D7000486FB4 /* Theme2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881EA72AB17D7000486FB4 /* Theme2View.swift */; };
+		CF881EAA2AB17D9A00486FB4 /* Theme3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881EA92AB17D9A00486FB4 /* Theme3View.swift */; };
+		CF881EAC2AB17EAF00486FB4 /* GameTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881EAB2AB17EAF00486FB4 /* GameTabView.swift */; };
+		CF881EAE2AB1809F00486FB4 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF881EAD2AB1809F00486FB4 /* GameDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		CF881E922AB16FD600486FB4 /* UI_Practice2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI_Practice2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF881E962AB16FD600486FB4 /* UI_Practice2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Practice2UITests.swift; sourceTree = "<group>"; };
 		CF881E982AB16FD600486FB4 /* UI_Practice2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Practice2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF881EA52AB17D4E00486FB4 /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		CF881EA72AB17D7000486FB4 /* Theme2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme2View.swift; sourceTree = "<group>"; };
+		CF881EA92AB17D9A00486FB4 /* Theme3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme3View.swift; sourceTree = "<group>"; };
+		CF881EAB2AB17EAF00486FB4 /* GameTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabView.swift; sourceTree = "<group>"; };
+		CF881EAD2AB1809F00486FB4 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 			children = (
 				CF881E7B2AB16FD500486FB4 /* UI_Practice2App.swift */,
 				CF881E7D2AB16FD500486FB4 /* ContentView.swift */,
+				CF881EAB2AB17EAF00486FB4 /* GameTabView.swift */,
+				CF881EA52AB17D4E00486FB4 /* VehicleView.swift */,
+				CF881EA72AB17D7000486FB4 /* Theme2View.swift */,
+				CF881EA92AB17D9A00486FB4 /* Theme3View.swift */,
 				CF881E7F2AB16FD600486FB4 /* Assets.xcassets */,
 				CF881E812AB16FD600486FB4 /* Preview Content */,
+				CF881EAD2AB1809F00486FB4 /* GameDetailView.swift */,
 			);
 			path = UI_Practice2;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF881EAC2AB17EAF00486FB4 /* GameTabView.swift in Sources */,
+				CF881EAE2AB1809F00486FB4 /* GameDetailView.swift in Sources */,
 				CF881E7E2AB16FD500486FB4 /* ContentView.swift in Sources */,
+				CF881EA62AB17D4E00486FB4 /* VehicleView.swift in Sources */,
 				CF881E7C2AB16FD500486FB4 /* UI_Practice2App.swift in Sources */,
+				CF881EAA2AB17D9A00486FB4 /* Theme3View.swift in Sources */,
+				CF881EA82AB17D7000486FB4 /* Theme2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
