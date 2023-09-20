@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameDetailView: View {
-    let emojis = ["👻","🎃","🕷️","😈","🤡","👽","☠️","🤖","😱"]
+    let emojis = ["👻","🎃","🕷️","😈","🤡","👽","☠️","🤖","😱","🪼","🦕"]
     
     @State var cardCount: Int = 4
     
@@ -29,7 +29,7 @@ struct GameDetailView: View {
     }
     
     var cards: some View{
-        LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))]){
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 85))]){
             ForEach(0..<cardCount, id: \.self) { index in
                 CardView(content: emojis[index])
                     .aspectRatio(2/3, contentMode: .fit)
@@ -61,7 +61,7 @@ struct GameDetailView: View {
     var cardRemover: some View {
         return cardCountAdjuster(by: -1, symbol: "minus.circle.fill")
     }
-    
+     
     var cardAdder: some View {
         return cardCountAdjuster(by: 1, symbol: "plus.circle.fill")
     }
